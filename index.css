@@ -1,0 +1,417 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    background-color: #24201F;
+	font-family: PingFangSC-Semibold, PingFang SC;
+    font-size: 65%;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+ background-color: #101010;
+    height: 9rem;
+	padding: 0 30rem;
+border-bottom: 1px dashed #948c8c;
+}
+.main{
+	overflow: hidden;
+}
+.v-middle{
+	vertical-align: middle;
+}
+.logo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+}
+.agreement-btn+.agreement-btn{
+	margin-left: 2.8125rem;
+}
+.agreement-btn{
+	display: inline-block;
+	font-size: 20px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	color: #000000;
+	line-height: 3.125rem;
+	padding: 0 2.5rem;
+}
+.answer{
+    width: 100%;
+    height: 1285px;
+    background:url(./images/beijing1.png) no-repeat;
+	display: flex;
+	justify-content: center;
+}
+.answer .picture{
+    margin:16.2rem  25rem 0 0
+}
+.answer .bottom{
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 5rem;
+    font-size: 2.8rem;
+    color: #ffffff ;
+    
+}
+.answer .bottom div{
+ align-items: center;
+    display: flex;
+}
+.answer .bottom div img{
+ padding-right: 2rem;
+   }
+
+.answer .picture img{
+    padding-top: 5%;
+}
+.answer .leftwords{
+    margin: 20rem 10rem 0 25rem;
+    padding-top: 4rem;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.answer div{
+  margin-top: 2rem;
+}
+.answer .leftwords .h{
+    display: flex;
+    font-family: Roboto-BoldItalic, Roboto;
+    justify-content: center;
+    flex-direction: column;
+}
+.answer .leftwords .h-w{
+    text-align: left;
+    font-size: 5rem;
+    font-family: Roboto-BoldItalic, Roboto;
+    color: #ffffff;
+}
+.answer .leftwords .h .small{
+    width: 60rem;
+    font-family: Roboto-BoldItalic, Roboto;
+    text-align: right;
+    font-size: 5rem;
+    color: #ffffff;
+}
+.answer .leftwords .h-common{
+    width: 53rem;
+    font-family: Roboto-BoldItalic, Roboto;
+    text-align: center;
+    font-size: 3.6rem;
+    color: #ffffff;
+}
+.answer .leftwords .h-p{
+  margin: 6rem 0 0 13rem;
+}
+.answer .leftwords .h .h-color{
+    display: inline-block;
+    margin-right: 2rem;
+    width: 3rem;
+    height: 18rem;
+    background-color: #603FE6;
+}
+.two{
+    background: url(./images/beijing2.png) no-repeat;
+    background-color: #101010;
+    margin-top:-34.4rem;
+    height: 878px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two .two-right{
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 545px;
+    flex-direction: column;
+height: 390px;
+font-size: 2.4rem;
+font-family: Roboto-Regular, Roboto;
+font-weight: 400;
+color: #2E2E2E;
+line-height: 39px;
+}
+.two .two-right .two-first{
+    width: 545px;
+height: 140px;
+font-size: 3.6rem;
+font-family: Roboto-Bold, Roboto;
+font-weight: bold;
+color: #2E2E2E;
+line-height: 70px;
+}
+.two .two-right div{
+    padding: 2.6rem 0;
+}
+.two .two-left img{
+    padding-top: 25rem;
+}
+.last{
+    margin-top: 20rem;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.last .h1{
+    margin-bottom: 3.8rem;
+    width: 635px;
+    height: 28px;
+    font-size: 24px;
+    font-family: Roboto-Medium, Roboto;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 28px;
+}
+.last .middle{
+    margin-bottom: 20rem;
+    text-align: center;
+    width: 700px;
+    height: 84px;
+    font-size: 36px;
+    font-family: Roboto-Bold, Roboto;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 42px;
+}
+.last .middle span{
+    width: 180px;
+height: 74px;
+font-size: 32px;
+font-family: PingFangSC-Regular, PingFang SC;
+font-weight: 400;
+color: #FFFFFF;
+line-height: 45px;
+padding-left: 2rem;
+}
+.last .middle .middle-one{
+    width: 180px;
+height: 100px;
+font-size: 62px;
+font-family: PingFangSC-Semibold, PingFang SC;
+font-weight: 600;
+color: #FFE01D;
+line-height: 87px;
+}
+.last .middle .middle-two{
+    width: 180px;
+    height: 100px;
+    font-size: 62px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #6BDCEC;
+    line-height: 87px;
+}
+.mainbottom{
+    height: 110px;
+    margin: 20rem 0 1rem;
+    text-align: center;
+    height: 20px;
+    font-size: 20px;
+    font-family: Roboto-Medium, Roboto;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 16px;
+}
+
+/* @media screen and (max-width: 1680px){
+  .contact{
+      margin-left: -300px;
+  }
+} */
+@media screen and (max-width: 1512px){
+    .answer .picture img{
+       width: 600px;
+    }
+       .picture{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+   }
+   @media screen and (max-width: 1288px){
+       .answer .leftwords h1{
+           font-size: 5rem;
+       }
+
+   }
+       @media screen and (max-width: 1192px){
+      
+       .answer .picture img{
+           width: 400px;
+        }
+   
+           .mainbottom{
+               font-size: 1.8rem;
+           }
+       }
+       @media screen and (max-width: 600px){
+        header{
+    height: 9rem;
+	padding: 0 2rem;
+
+}
+        .answer .leftwords .h-w{
+            text-align: left;
+            width: 200px;
+            font-size: 2rem;
+            margin-left: 26rem;
+            color: #ffffff;
+                       }
+        .answer .leftwords .h .small{
+            margin-left: 22rem;
+            text-align: left;
+            font-size: 1.7rem;
+            color: #ffffff;
+        }
+        .answer .leftwords .h-common{
+            margin-left: 4rem;
+            width: 53rem;
+            font-size: 1.6rem;    
+        }
+        .logo-box{
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .agreement-btn+.agreement-btn{
+            margin-left: 2.8125rem;
+        }
+        .agreement-btn{
+            display: inline-block;
+            font-size: 16px;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            color: #000000;
+            line-height: 2.125rem;
+            padding: 0 0rem;
+        }
+        .last .h1{
+            text-align: center;
+            width: 320px;
+            height: 56px;
+            font-size: 28px;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: #FFFFFF;
+            line-height: 56px;
+        }
+        .last .middle{
+            margin:2rem 0 10rem 23rem;
+            width: 55rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .last img{
+            width: 100%;
+        }
+        .two{
+            flex-direction: column;
+            margin-top:-10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        .agreement-btn{
+            font-size: 0.8rem;
+            padding: 0 0.5rem;
+        }
+    .two  .two-left img{
+        margin:-2rem 0 0 10rem;
+      width:30%;
+      margin-top: -2rem;
+      padding: 0rem;
+    }
+    .two .two-right{
+        margin-top: 10rem;
+        font-size: 2rem;
+        width: 370px;
+    }
+    .two .two-right div{
+        padding: 1.3rem 0;
+    }
+    .two .two-right .two-first{
+        font-size: 2rem;
+        width: 370px;
+    }
+    .answer .leftwords .h-p{
+        margin: 6rem 0 0 -20rem;
+      }
+      .answer .leftwords .h-p img{
+       width: 80%;
+      }
+        .answer{
+            width: 100%;
+            height: 885px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .answer .leftwords{
+            display: flex;
+            margin: 0;
+            margin-left: 20rem;
+            justify-content: flex-start;
+            flex-direction: column;
+            align-items: left;
+        }
+           .answer .leftwords .h{
+            width: 300px;
+margin-left: -40rem;
+               font-size: 1.6rem;
+               color: #000000;
+               word-break: break-all
+           }
+                       .answer .leftwords .h-color{
+                        margin:0 1rem 0 20rem
+                                   }
+     
+       
+      
+           .answer .picture img{
+            position:absolute;
+            top: 
+            30rem;
+            left:20rem;
+               width: 20rem;
+           }
+        
+           .last .h1{
+            font-size: 16px;
+           }
+           .last .middle{
+            margin:0 1rem 24rem 0;
+            text-align: center;
+            width: 390px;
+            height: 84px;
+            font-size: 26px;
+            font-family: Roboto-Bold, Roboto;
+            font-weight: bold;
+            color: #FFFFFF;
+            line-height: 42px;
+        }
+        .mainbottom{
+            margin-top: 5rem;
+            background-image: none;
+            margin-bottom: 4rem;
+           font-size: 1.5rem;
+           text-align: center;
+           line-height: 2rem;
+           color: #ffffff;
+        }
+       }
